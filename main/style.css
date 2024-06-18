@@ -132,13 +132,13 @@ a:active {
 }
 
 .menu-container::before {
-  background: url(/dist/imagi/maion.JPG) no-repeat;
+  background: url(./imagi/maion.JPG) no-repeat;
 background-attachment: fixed;
 background-size: cover;;
 }
 
 .menu-container::after {
-  background: url(/dist/imagi/maion.JPG) no-repeat;
+  background: url(./imagi/maion.JPG) no-repeat;
 background-attachment: fixed;
 background-size: cover;;
 }
@@ -507,7 +507,7 @@ background-size: cover;;
 #welcome-section::before {
   content: '';
 position: fixed;
-background: url(/dist/imagi/maion.JPG) no-repeat;
+background: url(./imagi/maion.JPG) no-repeat;
 background-attachment: fixed;
 background-size: cover; /* изменение */
 width: 100%;
@@ -743,7 +743,7 @@ animation: stars-move-in 1000ms 300ms forwards;
   right: 0;
   bottom: 0;
   left: 0;
-  background: url(/dist/imagi/forest.JPG) center right no-repeat;
+  background: url(./imagi/forest.JPG) center right no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -859,7 +859,7 @@ animation: stars-move-in 1000ms 300ms forwards;
   min-height: 100vh;
   font-size: 1.4rem;
   position: relative;
-  background: url(/dist/imagi/about2.JPG) center no-repeat;
+  background: url(./imagi/about2.JPG) center no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
