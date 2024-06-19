@@ -11,7 +11,6 @@ function _defineProperty(obj, key, value) {
   }
   return obj;
 }
-
 /***********************
   Menu Component
  ***********************/
