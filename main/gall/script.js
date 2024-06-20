@@ -58,8 +58,16 @@ class Gallery extends React.Component {
       React.createElement("div", { className: "gallery-container" }, /*#__PURE__*/
         React.createElement("h1", null, "ГАЛЕРЕЯ НАТАЛКИ"), /*#__PURE__*/
   
-        React.createElement("button", { className: "home-button", onClick: this.navigateToHomePage }, "На головну"), /*#__PURE__*/
-  
+        React.createElement(
+          "div",
+          { className: "buttons" } /*#__PURE__*/,
+          React.createElement(
+            "a",
+            { href: "../index.html", className: "cta" },
+            "НА ГОЛОВНУ"
+          )
+        ),
+
         React.createElement("div", { className: "gallery-grid" },
           imgUrls.map(this.renderImageContent)), /*#__PURE__*/
   
