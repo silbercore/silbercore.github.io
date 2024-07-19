@@ -8,7 +8,7 @@ const imgUrls = [
   './photo/photo7.JPG',
   './photo/photo8.JPG',
   './photo/photo9.JPG',
-  './photo/photo10.JPG',
+  // './photo/photo10.JPG',
   
 ];
 
